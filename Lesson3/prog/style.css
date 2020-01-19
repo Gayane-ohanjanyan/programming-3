@@ -1,0 +1,54 @@
+@keyframes ga {
+  from {background-color: #336600;}
+  to {background-color: #408000;}
+  to {background-color: #336600;}
+  to {background-color: #4d9900;}
+  to {background-color: #59b300;}
+  to {background-color: #66cc00;}
+  to {background-color: #73e600;}
+  to {background-color: #80ff00;}
+  to {background-color: #8cff1a;}
+}
+
+/* The element to apply the animation to */
+body {
+  width: 100px;
+  height: 100px;
+  background-color: #77e600;
+  animation-name: ga;
+  animation-duration: 8s;
+}
+
+.div1{
+  margin-left: 250px;
+	display: inline-block;
+  width: 500px;
+}
+
+
+@keyframes tar {
+  from {color: #00001a;}
+   to {color: #000033;}
+  to {color: #00004d;}
+  to {color: #000066;}
+  to {color: #000080;}
+  to {color: #000099;}
+   to {color: #0000b3;}
+  to {color: #0000cc;}
+  to {color: #0000e6;}
+  to {color: #0000ff;}
+  
+}
+
+/* The element to apply the animation to */
+h1, table{
+  font-size: 50px;
+  color: #0000ff;
+  animation-name: tar;
+  animation-duration: 8s;
+}
+
+table{
+  margin-top: 140px;
+  margin-right:100px;
+}
